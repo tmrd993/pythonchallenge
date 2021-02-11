@@ -9,7 +9,7 @@ fileType = '.txt';
 filename = "90052";
 fileContents = open(pathPrefix + filename + fileType, "r").read();
 filename = fileContents[fileContents.index('is') + 3:];
-print(str(zip.getinfo(filename + fileType).comment)[2], end="");
+print(str(zip.getinfo(filename + fileType).comment)[2], end=""); # print the first character
 
 while 'nothing is' in fileContents:
     fileContents = open(pathPrefix + filename + fileType, "r").read();
