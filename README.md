@@ -7,12 +7,12 @@ each file returns the suffix for the next URL.
 e.g: http://www.pythonchallenge.com/pc/def/<SUFFIX>.html  
 
 Run using  
-'''Python
+```Python
 py ch0.py
-'''
+```
 
 or
 
-'''Python
+```Python
 python ch0.py
-'''
+```
